@@ -1,0 +1,5 @@
+interface:
+  display_name: "Bro What"
+  short_description: "Re-explain the last message in plain language"
+policy:
+  allow_implicit_invocation: false

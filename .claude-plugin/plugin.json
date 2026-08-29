@@ -1,0 +1,24 @@
+{
+  "name": "bro-skills",
+  "version": "0.1.0",
+  "description": "Skills that make your agent talk like your bro. bro-what re-explains its last message in plain language, bro-shorter compresses it without dropping anything.",
+  "author": {
+    "name": "Eugene Kosharnyi",
+    "url": "https://github.com/eukosh"
+  },
+  "homepage": "https://github.com/eukosh/bro-skills",
+  "repository": "https://github.com/eukosh/bro-skills",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "clarity",
+    "plain-language",
+    "explain",
+    "summarize",
+    "productivity"
+  ],
+  "skills": [
+    "./skills/bro-what",
+    "./skills/bro-shorter"
+  ]
+}

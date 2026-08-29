@@ -1,0 +1,21 @@
+{
+  "name": "eukosh",
+  "owner": {
+    "name": "Eugene Kosharnyi",
+    "url": "https://github.com/eukosh"
+  },
+  "description": "Eugene Kosharnyi's skills, as installable Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "bro-skills",
+      "source": "./",
+      "description": "Skills that make your agent talk like your bro.",
+      "category": "productivity",
+      "keywords": [
+        "skills",
+        "clarity",
+        "plain-language"
+      ]
+    }
+  ]
+}

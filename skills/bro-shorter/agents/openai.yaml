@@ -1,0 +1,5 @@
+interface:
+  display_name: "Bro Shorter"
+  short_description: "Compress the last message without losing anything"
+policy:
+  allow_implicit_invocation: false
