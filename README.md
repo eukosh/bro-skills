@@ -2,7 +2,7 @@
 
 # 🤙 bro-skills
 
-**Skills that make your agent talk like your bro.**
+**Your agent rambled. These make it say it again like your bro would, short and plain.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Format: Agent Skills](https://img.shields.io/badge/format-Agent%20Skills-blue)](https://agentskills.io)
@@ -15,20 +15,21 @@
 
 Your agent just answered your question. Thoroughly. In eleven paragraphs of words nobody has ever said out loud. You read it several times and still can't grasp the point.
 
-Looks like a good time to use bro skills and turn your AI agent to AI bro.
-Two of them so far:
+Time for a bro skill. Two of them so far:
 
 | | |
 |---|---|
 | [**`bro-what`**](skills/bro-what/SKILL.md) | Too dense, too jargony. Say it again in plain words, and no longer than before. |
 | [**`bro-shorter`**](skills/bro-shorter/SKILL.md) | I don't have the whole day to read this wall of text. Say it again, I have things to do today. |
 
-`bro-what` re-explains, so that you get it.
-`bro-shorter` cuts it down to the gist: one to three sentences, specifics kept.
+`bro-what` re-explains it in plain words and never comes back longer than the original.
+`bro-shorter` cuts it to the gist in one to three sentences and keeps the specifics that matter.
 
 ## The fine print
 
 They only re-say. Nothing new gets answered, nothing gets looked up, no tool gets called, so a wrong answer comes back wrong in plainer language.
+
+`bro-shorter` drops anything that wouldn't change your next move. If you need every detail, the original is still right above it.
 
 ## Install
 

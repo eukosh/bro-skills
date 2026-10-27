@@ -1,7 +1,7 @@
 {
   "name": "bro-skills",
   "version": "0.2.0",
-  "description": "Skills that make your agent talk like your bro. bro-what re-explains its last message in plain language, bro-shorter cuts it down to its core in a few sentences.",
+  "description": "Make your agent say its last reply again, shorter or plainer. bro-what re-explains it in plain words, bro-shorter cuts it to its core in a few sentences.",
   "author": {
     "name": "Eugene Kosharnyi",
     "url": "https://github.com/eukosh"
