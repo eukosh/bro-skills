@@ -9,7 +9,7 @@
     {
       "name": "bro-skills",
       "source": "./",
-      "description": "Skills that make your agent talk like your bro.",
+      "description": "Make your agent say its last reply again, shorter or plainer.",
       "category": "productivity",
       "keywords": [
         "skills",
