@@ -6,7 +6,7 @@ disable-model-invocation: true
 
 # bro-shorter
 
-The user looked at your last message, saw a wall of text, and wants the **gist**. Rewrite **your own last message** as one to three plain sentences that carry what actually matters.
+The user looked at your last message, saw a wall of text, and wants the **gist**. Rewrite **your own last message** as one to three sentences that carry what actually matters.
 
 ## What survives
 
@@ -25,7 +25,6 @@ Usually cut: process narration, reasoning, rejected alternatives, background the
 
 - **Specific, never generic.** A sentence that only says what happened is a useless summary; name the actual result. "Fixed the login bug" says nothing. "Login broke on uppercase emails; `normalizeEmail` now lowercases them, tests pass" is the gist.
 - **Sequences as arrows.** A chain of steps collapses to `fetch → dedupe → write to S3`, one arrow per step, no sentence per step.
-- **Terse plain prose**, like a friend texting you the result. Plain sentences only: no headers, bullets, tables, or bold. The first word is content.
 - **Facts verbatim.** Paths, commands, flags, filenames, numbers, and URLs that make the cut carry over character for character.
 - **Compress, do not re-answer.** Work only from what you already said: no new information, no tool calls.
 - **Same language** as the original.
