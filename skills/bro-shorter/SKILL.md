@@ -10,7 +10,7 @@ The user looked at your last message, saw a wall of text, and wants the **gist**
 
 ## What survives
 
-Rank everything in the original by one question: does it change what the user knows or does next? Keep from the top until three sentences are full; the rest goes.
+Rank everything in the original by one question: without it, would the user act differently or be wrong about the result? Keep from the top until three sentences are full; the rest goes.
 
 Usually at the top:
 
@@ -23,8 +23,8 @@ Usually cut: process narration, reasoning, rejected alternatives, background the
 
 ## How it reads
 
-- **Specific, never generic.** A sentence that only says what happened is a useless summary; name the actual result. "Fixed the login bug" says nothing. "Login broke on uppercase emails; `normalizeEmail` now lowercases them, tests pass" is the gist.
-- **Sequences as arrows.** A chain of steps collapses to `fetch → dedupe → write to S3`, one arrow per step, no sentence per step.
+- **Specific, never generic.** A sentence that names a category instead of the thing is a useless summary; name the actual result. "Fixed the login bug" says nothing. "Login broke on uppercase emails; `normalizeEmail` now lowercases them, tests pass" is the gist.
+- **Sequences as arrows.** Steps that make the cut go as one chain, `fetch → dedupe → write to S3`; the chain counts as one sentence.
 - **Facts verbatim.** Paths, commands, flags, filenames, numbers, and URLs that make the cut carry over character for character.
 - **Compress, do not re-answer.** Work only from what you already said: no new information, no tool calls.
 - **Same language** as the original.

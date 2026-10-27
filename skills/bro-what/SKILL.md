@@ -1,6 +1,6 @@
 ---
 name: bro-what
-description: Re-explain your AI bro's last message in plain words you can actually follow.
+description: Re-explain your AI bro's last message in plain words, never longer than before.
 disable-model-invocation: true
 ---
 
@@ -11,9 +11,9 @@ The user read your last message and went "bro, what?". It was too dense or too j
 ## Rules
 
 - **Re-explain, do not re-answer.** Work only from what you already said: no new information, no tool calls.
-- **Never longer than the original.** Plain words usually take fewer of them. When the plain version needs room, make it by cutting side details, keeping the main point and anything the user must act on.
+- **At most the original's length.** Cover the same ground in plainer words; when that would run longer, drop side details first and keep the main point and anything the user must act on.
 - **Trade each jargon term for what it actually does.** Keep the original term in parentheses when the user will run into it again elsewhere.
-- **Facts verbatim.** Paths, commands, flags, filenames, numbers, URLs, names and decisions that stay carry over character for character. Simplify the explanation around the facts, never the facts themselves.
+- **Facts verbatim.** Paths, commands, flags, filenames, numbers, URLs and names that stay carry over character for character. Simplify the explanation around the facts, never the facts themselves.
 - **Same language** as the original.
 
 ## Done when
