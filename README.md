@@ -24,7 +24,7 @@ Two of them so far:
 | [**`bro-shorter`**](skills/bro-shorter/SKILL.md) | I don't have the whole day to read this wall of text. Say it again, I have things to do today. |
 
 `bro-what` re-explains, so that you get it.
-`bro-shorter` makes it shorter without losing important details.
+`bro-shorter` cuts it down to the gist: one to three sentences, specifics kept.
 
 ## The fine print
 

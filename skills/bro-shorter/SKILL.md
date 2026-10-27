@@ -1,23 +1,38 @@
 ---
 name: bro-shorter
-description: Shorten your AI bro's last message without losing core information.
+description: Cut your AI bro's last message down to its core in a few sentences.
 disable-model-invocation: true
 ---
 
 # bro-shorter
 
-Your last message was too long to read. The user wants to grasp the core idea without losing any important details.
+The user looked at your last message, saw a wall of text, and wants the **gist**. Rewrite **your own last message** as one to three plain sentences that carry what actually matters.
 
-Rewrite **your own last message** into the shortest form that still carries everything the user needs.
+## What survives
 
-**The test:** someone who reads only the short version can act exactly as they could after reading the long one. Length is the only thing you cut.
+Rank everything in the original by one question: does it change what the user knows or does next? Keep from the top until three sentences are full; the rest goes.
 
-## Rules
+Usually at the top:
 
-- **Compress, do not re-answer.** Work only from what you already said. No new questions answered, no new information, no tool calls.
-- **Every fact, step, number, caveat and warning survives.** A caveat that would change what the user does is crucial, so it stays even when it costs a line.
-- **Facts survive verbatim.** Paths, commands, flags, filenames, numbers and URLs carry over character for character.
-- **Causal bro vibes.** Light, casual and direct tone. A slight sprinkle of personality, like you would talk to a friend over a beer. BUT, don't turn it into a joke, you are meant to provide a genuine value.
+- The outcome: what is now true, fixed, decided, found, or still broken.
+- What the user must do or decide, if anything.
+- A risk or caveat that would change their next move.
+- The one or two specifics that make it concrete: the name, number, path, or command.
+
+Usually cut: process narration, reasoning, rejected alternatives, background the user already has, minor caveats, recaps, and politeness.
+
+## How it reads
+
+- **Specific, never generic.** A sentence that only says what happened is a useless summary; name the actual result. "Fixed the login bug" says nothing. "Login broke on uppercase emails; `normalizeEmail` now lowercases them, tests pass" is the gist.
+- **Sequences as arrows.** A chain of steps collapses to `fetch → dedupe → write to S3`, one arrow per step, no sentence per step.
+- **Terse plain prose**, like a friend texting you the result. Plain sentences only: no headers, bullets, tables, or bold. The first word is content.
+- **Facts verbatim.** Paths, commands, flags, filenames, numbers, and URLs that make the cut carry over character for character.
+- **Compress, do not re-answer.** Work only from what you already said: no new information, no tool calls.
+- **Same language** as the original.
+
+## Done when
+
+The reply is at most three sentences, every sentence names something specific, and a user who reads only this knows the outcome and their next move.
 
 ## Edge case
 

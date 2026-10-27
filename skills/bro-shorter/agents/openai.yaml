@@ -1,5 +1,5 @@
 interface:
   display_name: "Bro Shorter"
-  short_description: "Compress the last message without losing anything"
+  short_description: "Cut the last message down to its core in a few sentences"
 policy:
   allow_implicit_invocation: false
