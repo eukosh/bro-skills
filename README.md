@@ -20,7 +20,7 @@ Two of them so far:
 
 | | |
 |---|---|
-| [**`bro-what`**](skills/bro-what/SKILL.md) | Too dense, too verbose, too jargony, too formal. Say it again like we are at a lunch break. |
+| [**`bro-what`**](skills/bro-what/SKILL.md) | Too dense, too jargony. Say it again in plain words, and no longer than before. |
 | [**`bro-shorter`**](skills/bro-shorter/SKILL.md) | I don't have the whole day to read this wall of text. Say it again, I have things to do today. |
 
 `bro-what` re-explains, so that you get it.
